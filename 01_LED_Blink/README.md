@@ -45,7 +45,7 @@ It serves as the introductory project for learning GPIO control and programming 
 
 ## 📷 Circuit Diagram
 
-> *(Insert `LED_Blink_Circuit.jpeg` here)*
+![Circuit Diagram](LED_Blink_Circuit.jpeg)
 
 ---
 
