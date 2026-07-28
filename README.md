@@ -1,23 +1,35 @@
-# ESP8266 IoT Projects
+# 🚀 ESP8266 IoT Projects
 
 <div align="center">
 
-![ESP8266](https://img.shields.io/badge/ESP8266-NodeMCU-00979D?style=for-the-badge)
-![Language](https://img.shields.io/badge/Arduino%20C%2B%2B-Programming-orange?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Arduino%20IDE-Development-blue?style=for-the-badge)
-![Projects](https://img.shields.io/badge/Projects-1-success?style=for-the-badge)
+![ESP8266](https://img.shields.io/badge/ESP8266-NodeMCU-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![Arduino IDE](https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![Arduino C++](https://img.shields.io/badge/Arduino_C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)
 
-**A collection of ESP8266 NodeMCU projects demonstrating Wi-Fi connectivity, IoT applications, sensor interfacing, web servers, and embedded systems programming.**
+![Projects](https://img.shields.io/badge/Projects-3-success?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-ESP8266-blue?style=flat-square)
+![Language](https://img.shields.io/badge/Language-Arduino_C++-orange?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 </div>
 
 ---
 
+## 📖 About
+
+A curated collection of hands-on IoT and embedded systems projects built using the **NodeMCU ESP8266**. This repository documents my learning journey through practical projects covering GPIO programming, sensor interfacing, actuators, and Wi-Fi-enabled embedded systems.
+
+---
+
 ## 📂 Project Portfolio
 
-| No. | Project | Description |
-|:---:|---------|-------------|
-| 01 | **[LED Blink](01_LED_Blink)** | Basic digital output using an external LED connected to the NodeMCU ESP8266. |
+| No. | Project | Description | Status |
+|:---:|---------|-------------|:------:|
+| 01 | **[LED Blink](01_LED_Blink)** | Blink an external LED using GPIO programming and Serial Monitor output. | ✅ |
+| 02 | **[Touch Sensor LED Toggle](02_Touch_Sensor_LED_Toggle)** | Toggle an LED using a capacitive touch sensor with edge detection and software debouncing. | ✅ |
+| 03 | **[Buzzer Alert](03_Buzzer_Alert)** | Generate an audible alert using a buzzer connected to the ESP8266. | ✅ |
 
 ---
 
@@ -26,42 +38,37 @@
 ```text
 ESP8266-IoT-Projects/
 │
-└── 01_LED_Blink/
-    ├── 01_LED_Blink.ino
-    ├── LED_Blink_Circuit.png
-    └── README.md
+├── 01_LED_Blink/
+├── 02_Touch_Sensor_LED_Toggle/
+├── 03_Buzzer_Alert/
+│
+├── LICENSE
+└── README.md
 ```
-
-Each project includes:
-
-- Arduino source code (`.ino`)
-- Circuit diagram
-- Project documentation (`README.md`)
-- Components used
-- Working principle
-- IoT and embedded systems concepts
 
 ---
 
-## 🛠 Development Environment
+## 🛠 Tech Stack
 
 | Category | Technology |
-|----------|------------|
+|-----------|------------|
 | Board | NodeMCU ESP8266 |
 | IDE | Arduino IDE |
 | Language | Arduino C++ |
-| Communication | Wi-Fi |
+| Version Control | Git & GitHub |
 
 ---
 
-## 🔌 Hardware Components
+## 🔌 Hardware Used
 
 - NodeMCU ESP8266
-- LEDs
-- Resistors
 - Breadboard
+- LEDs
+- Capacitive Touch Sensor
+- Buzzer
+- Resistors
 - Jumper Wires
-- Sensors *(added as projects expand)*
+- USB Cable
 
 ---
 
@@ -69,15 +76,26 @@ Each project includes:
 
 - GPIO Programming
 - Digital Input & Output
-- Wi-Fi Communication
-- Sensor Interfacing
-- Web Server Development
-- IoT Fundamentals
+- LED Control
+- Capacitive Touch Sensing
+- Edge Detection
+- Software Debouncing
+- Buzzer Control
 - Serial Communication
-- Embedded Systems Programming
+- Embedded Systems Fundamentals
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository.
+2. Open any project folder.
+3. Upload the `.ino` file using Arduino IDE.
+4. Select **NodeMCU 1.0 (ESP-12E Module)**.
+5. Build the circuit and run the project.
 
 ---
 
 ## 📄 License
 
-This repository is licensed under the MIT License.
+This project is licensed under the MIT License.
