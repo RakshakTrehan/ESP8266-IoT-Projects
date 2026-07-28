@@ -49,7 +49,7 @@ This project plays a beep pattern during startup using an active buzzer connecte
 
 ## 🚀 How to Run
 
-1. Open `02_Buzzer_Alert.ino` in Arduino IDE.
+1. Open `03_Buzzer_Alert.ino` in Arduino IDE.
 2. Select **NodeMCU 1.0 (ESP-12E Module)**.
 3. Choose the correct COM Port.
 4. Upload the code.
