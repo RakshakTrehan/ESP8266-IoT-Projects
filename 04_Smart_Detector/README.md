@@ -34,7 +34,7 @@ A NodeMCU ESP8266-based obstacle detection system that uses an **IR sensor** to 
 ## 📸 Project Setup
 
 <p align="center">
-  <img src="Smart_Detector_Circuit.png" alt="Smart Obstacle Detector Circuit" width="700">
+  <img src="Smart_Detector_circuit.jpeg" alt="Smart Obstacle Detector Circuit" width="700">
 </p>
 
 ---
