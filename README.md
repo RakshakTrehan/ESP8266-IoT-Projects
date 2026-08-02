@@ -7,7 +7,7 @@
 ![Arduino C++](https://img.shields.io/badge/Arduino_C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)
 
-![Projects](https://img.shields.io/badge/Projects-3-success?style=flat-square)
+![Projects](https://img.shields.io/badge/Projects-4-success?style=flat-square)
 ![Platform](https://img.shields.io/badge/Platform-ESP8266-blue?style=flat-square)
 ![Language](https://img.shields.io/badge/Language-Arduino_C++-orange?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
@@ -28,8 +28,9 @@ A curated collection of hands-on IoT and embedded systems projects built using t
 | No. | Project | Description | Status |
 |:---:|---------|-------------|:------:|
 | 01 | **[LED Blink](01_LED_Blink)** | Blink an external LED using GPIO programming and Serial Monitor output. | ✅ |
-| 02 | **[Touch Sensor LED Toggle](02_Touch_Sensor_LED_Toggle)** | Toggle an LED using a capacitive touch sensor with edge detection and software debouncing. | ✅ |
+| 02 | **[Touch Sensor LED Toggle](02_Touch_Sensor_LED_Touch_Sensor)** | Toggle an LED using a capacitive touch sensor with edge detection and software debouncing. | ✅ |
 | 03 | **[Buzzer Alert](03_Buzzer_Alert)** | Generate an audible alert using a buzzer connected to the ESP8266. | ✅ |
+| 04 | **[Smart Obstacle Detector](04_Smart_Obstacle_Detector)** | Detect nearby obstacles using an IR sensor and trigger visual and audible alerts through an LED and buzzer. | ✅ |
 
 ---
 
@@ -41,6 +42,7 @@ ESP8266-IoT-Projects/
 ├── 01_LED_Blink/
 ├── 02_Touch_Sensor_LED_Toggle/
 ├── 03_Buzzer_Alert/
+├── 04_Smart_Obstacle_Detector/
 │
 ├── LICENSE
 └── README.md
@@ -65,7 +67,8 @@ ESP8266-IoT-Projects/
 - Breadboard
 - LEDs
 - Capacitive Touch Sensor
-- Buzzer
+- IR Obstacle Detection Sensor
+- Active Buzzer
 - Resistors
 - Jumper Wires
 - USB Cable
@@ -78,6 +81,8 @@ ESP8266-IoT-Projects/
 - Digital Input & Output
 - LED Control
 - Capacitive Touch Sensing
+- IR Sensor Interfacing
+- Obstacle Detection
 - Edge Detection
 - Software Debouncing
 - Buzzer Control
