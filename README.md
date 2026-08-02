@@ -30,7 +30,7 @@ A curated collection of hands-on IoT and embedded systems projects built using t
 | 01 | **[LED Blink](01_LED_Blink)** | Blink an external LED using GPIO programming and Serial Monitor output. | ✅ |
 | 02 | **[Touch Sensor LED Toggle](02_Touch_Sensor_LED_Touch_Sensor)** | Toggle an LED using a capacitive touch sensor with edge detection and software debouncing. | ✅ |
 | 03 | **[Buzzer Alert](03_Buzzer_Alert)** | Generate an audible alert using a buzzer connected to the ESP8266. | ✅ |
-| 04 | **[Smart Obstacle Detector](04_Smart_Obstacle_Detector)** | Detect nearby obstacles using an IR sensor and trigger visual and audible alerts through an LED and buzzer. | ✅ |
+| 04 | **[Smart Detector](04_Smart_Detector)** | Detect nearby obstacles using an IR sensor and trigger visual and audible alerts through an LED and buzzer. | ✅ |
 
 ---
 
