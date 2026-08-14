@@ -47,8 +47,8 @@ Once the object moves away from the sensing range, the system automatically retu
 ## 📸 Project Demonstration
 
 <p align="center">
-  <img src="IR_BASED_INTRUDER_ALERT_SYSTEM.jpeg" alt="IR-Based Intruder Alert System" width="650">
-</p>
+  <img src="IR_BASED_INTRUDER_ALERT_SYSTEM_CIRCUIT.jpeg" alt="IR-Based Intruder Alert System" width="650">
+</p> 
 
 ## 🔌 Circuit Connections
 
