@@ -6,8 +6,7 @@
 ![Arduino IDE](https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![Arduino C++](https://img.shields.io/badge/Arduino_C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)
-
-![Projects](https://img.shields.io/badge/Projects-5-success?style=flat-square)
+![Projects](https://img.shields.io/badge/Projects-6-success?style=flat-square)
 ![Platform](https://img.shields.io/badge/Platform-ESP8266-blue?style=flat-square)
 ![Language](https://img.shields.io/badge/Language-Arduino_C++-orange?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
@@ -19,7 +18,7 @@
 
 ## 📖 About
 
-A curated collection of hands-on IoT and embedded systems projects built using the **NodeMCU ESP8266**. This repository documents my learning journey through practical implementations covering GPIO programming, sensor interfacing, analog and digital I/O, actuators, and real-time embedded applications.
+A curated collection of hands-on IoT and embedded systems projects built using the **NodeMCU ESP8266**. This repository documents my learning journey through practical implementations covering GPIO programming, sensor interfacing, analog and digital I/O, actuators, and real-time embedded applications — progressing from basic I/O to multi-sensor alert and security systems.
 
 ---
 
@@ -32,6 +31,7 @@ A curated collection of hands-on IoT and embedded systems projects built using t
 | 03 | **[Buzzer Alert](03_Buzzer_Alert)** | Generate an audible alert using a buzzer connected to the ESP8266. | ✅ |
 | 04 | **[Smart Obstacle Detector](04_Smart_Obstacle_Detector)** | Detect nearby obstacles using an IR sensor and trigger visual and audible alerts through an LED and buzzer. | ✅ |
 | 05 | **[Rain Detection Alert System](05_Rain_Detection_Alert_System)** | Detect rainfall using an analog rain sensor and activate LED and buzzer alerts based on moisture levels. | ✅ |
+| 06 | **[IR-Based Intruder Alert System](06_IR-Based_Intruder_Alert_System)** | Detect intruders using an IR sensor and trigger a buzzer with two flashing red LEDs as a combined audio-visual alarm. | ✅ |
 
 ---
 
@@ -45,6 +45,7 @@ ESP8266-IoT-Projects/
 ├── 03_Buzzer_Alert/
 ├── 04_Smart_Obstacle_Detector/
 ├── 05_Rain_Detection_Alert_System/
+├── 06_IR-Based_Intruder_Alert_System/
 │
 ├── LICENSE
 └── README.md
@@ -67,7 +68,7 @@ ESP8266-IoT-Projects/
 
 - NodeMCU ESP8266
 - Breadboard
-- LEDs
+- LEDs (including dual-LED alert setups)
 - Active Buzzer
 - Capacitive Touch Sensor
 - IR Obstacle Detection Sensor
@@ -88,10 +89,12 @@ ESP8266-IoT-Projects/
 - IR Sensor Interfacing
 - Rain Sensor Interfacing
 - Obstacle Detection
+- Intruder/Alarm Detection Logic
 - Threshold-Based Automation
 - Edge Detection
 - Software Debouncing
 - Buzzer Control
+- Multi-Actuator Alert Systems (LED + Buzzer)
 - Serial Communication
 - Embedded Systems Fundamentals
 
@@ -105,6 +108,14 @@ ESP8266-IoT-Projects/
 4. Select **NodeMCU 1.0 (ESP-12E Module)** as the board.
 5. Choose the appropriate COM port.
 6. Upload the sketch and assemble the circuit as shown in the project documentation.
+
+---
+
+## 🗺 Roadmap
+
+- [ ] Add WiFi-connected sensor dashboard project
+- [ ] Add MQTT-based home automation project
+- [ ] Add OTA (Over-the-Air) update example
 
 ---
 
